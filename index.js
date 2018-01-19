@@ -8,6 +8,8 @@ var mixedCase = 'Hi there!';
 mixedCase.toLowerCase === mixedCase; //false
 mixedCase.toUpperCase === mixedCase; //false
 
+var sentence = 'I love you, Grandma.';
+
 function shout(string){
   return string.toUpperCase();
 }
